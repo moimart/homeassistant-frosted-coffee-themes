@@ -438,7 +438,7 @@ Frosted Glass Light:
   success-color: 'rgb(124, 163, 96)'
   warning-color: 'rgb(229, 169, 80)'
   error-color: 'rgb(193, 81, 64)'
-  background-image: "center / 100% 100% no-repeat fixed linear-gradient(rgba(250, 240, 226, 0.8), rgba(250, 240, 226, 0.8)), center / 100% 100% no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@main/themes/frosted-glass-light-background.png')"
+  background-image: "center / 100% 100% no-repeat fixed linear-gradient(rgba(250, 240, 226, 0.8), rgba(250, 240, 226, 0.8)), center / 100% 100% no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@main/themes/frosted-coffee-light-background.jpg')"
   lovelace-background: var(--background-image)
   primary-background-color: 'rgba(250, 240, 226, 1)'
   secondary-background-color: 'rgba(244, 236, 224, 0.5)'
