@@ -1,8 +1,8 @@
-# Frosted Glass Light Lite
+# Frosted Coffee Light Lite
 # ver. 1.3 - (2025-11-24)  
 
-Frosted Glass Light Lite:
-  card-mod-theme: "Frosted Glass Light Lite"
+Frosted Coffee Light Lite:
+  card-mod-theme: "Frosted Coffee Light Lite"
 
   modes:                           # 1.2.1 - change add modes: light-only declaration
     light: {}

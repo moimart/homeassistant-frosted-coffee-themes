@@ -1,23 +1,24 @@
-# Frosted Glass Theme for Home Assistant ✨ 
-[![HACS Badge](https://img.shields.io/badge/Available%20in-HACS-41BDF5?logo=home-assistant&logoColor=white)](https://my.home-assistant.io/redirect/hacs_repository/?owner=WessamLauf&repository=homeassistant-frosted-glass-themes&category=theme)
-[![Latest Release](https://img.shields.io/github/v/release/wessamlauf/homeassistant-frosted-glass-themes?label=Release&logo=github)](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/wessamlauf/homeassistant-frosted-glass-themes?label=Last%20commit)](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/commits/main)
-[![GitHub Stars](https://img.shields.io/github/stars/wessamlauf/homeassistant-frosted-glass-themes?style=social)](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/stargazers)
+# Frosted Coffee Theme for Home Assistant ✨ 
+> A warm, coffee-toned rework of the original [Frosted Glass Theme](https://github.com/wessamlauf/homeassistant-frosted-glass-themes) by WessamLauf. ☕
+[![HACS Badge](https://img.shields.io/badge/Available%20in-HACS-41BDF5?logo=home-assistant&logoColor=white)](https://my.home-assistant.io/redirect/hacs_repository/?owner=moimart&repository=homeassistant-frosted-coffee-themes&category=theme)
+[![Latest Release](https://img.shields.io/github/v/release/moimart/homeassistant-frosted-coffee-themes?label=Release&logo=github)](https://github.com/moimart/homeassistant-frosted-coffee-themes/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/moimart/homeassistant-frosted-coffee-themes?label=Last%20commit)](https://github.com/moimart/homeassistant-frosted-coffee-themes/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/moimart/homeassistant-frosted-coffee-themes?style=social)](https://github.com/moimart/homeassistant-frosted-coffee-themes/stargazers)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-☕-orange?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/wessamlauf)
 
 
-<img alt="Frosted Glass logo" src="https://github.com/user-attachments/assets/f1fd71d5-f5bb-451e-862c-cc668d987f66" />
+<img alt="Frosted Coffee logo" src="https://github.com/user-attachments/assets/f1fd71d5-f5bb-451e-862c-cc668d987f66" />
 
 
 
 ### Bring depth and elegance to your dashboard with blurred glass panels and soft UI touches. ☀️
 
 
-This theme brings a sophisticated "**Frosted Glass**" aesthetic to your dashboard, combining transparency with elegant blurring effects to create a truly unique and contemporary look. Designed for both visual appeal and comfortable usability, the Frosted Glass Theme transforms your Home Assistant interface into a work of art. 🖼️
+This theme brings a sophisticated "**Frosted Coffee**" aesthetic to your dashboard, combining transparency with elegant blurring effects to create a truly unique and contemporary look. Designed for both visual appeal and comfortable usability, the Frosted Coffee Theme transforms your Home Assistant interface into a work of art. 🖼️
 
 ## ✨ Features
 
-- **Frosted Glass Aesthetic**: Transparent and blurred card elements create depth and layering. ❄️
+- **Frosted Coffee Aesthetic**: Transparent and blurred card elements create depth and layering. ❄️
 - **Light & Dark Modes**: Choose between a bright, clean look or a soft dark interface. ☀️🌑
 - **Modern Design**: Rounded corners, minimal shadows, and cohesive color palettes. 🛋️
 - **Enhanced UX**: Designed to feel fluid, comfortable, and polished. 🖼️
@@ -32,12 +33,12 @@ This theme brings a sophisticated "**Frosted Glass**" aesthetic to your dashboar
 
 **Step 2: Install Theme via HACS**
 
-[![Open your Home Assistant instance and install via HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=WessamLauf&repository=homeassistant-frosted-glass-themes&category=theme)
+[![Open your Home Assistant instance and install via HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=moimart&repository=homeassistant-frosted-coffee-themes&category=theme)
 
 **Step 3: Restart Home Assistant**
 
 **Step 4: Activate Theme**
-- Go to your profile (bottom-left corner of Home Assistant UI), and select **Frosted Glass**, **Frosted Glass Light** or **Frosted Glass Dark** from the theme dropdown.
+- Go to your profile (bottom-left corner of Home Assistant UI), and select **Frosted Coffee**, **Frosted Coffee Light** or **Frosted Coffee Dark** from the theme dropdown.
 
 -----
 
@@ -108,7 +109,7 @@ It allows you to:
 ## 🐞 Issues / Feedback
 
 Have a problem or a suggestion?  
-Open an [issue](https://github.com/wessamlauf/homeassistant-frosted-glass-themes/issues) or start a discussion on GitHub.
+Open an [issue](https://github.com/moimart/homeassistant-frosted-coffee-themes/issues) or start a discussion on GitHub.
 
 ---
 

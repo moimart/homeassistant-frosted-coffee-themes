@@ -1,8 +1,8 @@
-# Frosted Glass Dark Lite
+# Frosted Coffee Dark Lite
 # ver. 1.3 - (2025-11-24) 
 
-Frosted Glass Dark Lite:
-  card-mod-theme: 'Frosted Glass Dark Lite'
+Frosted Coffee Dark Lite:
+  card-mod-theme: 'Frosted Coffee Dark Lite'
 
   modes:                         # 1.2.1 - change add modes: dark-only declaration
     dark: {}
@@ -358,7 +358,7 @@ Frosted Glass Dark Lite:
   success-color: 'rgb(118, 214, 152)'
   warning-color: 'rgb(255, 219, 117)'
   error-color: 'rgb(234, 114, 135)'
-  background-image: "center / cover no-repeat fixed url('https://cdn.jsdelivr.net/gh/wessamlauf/homeassistant-frosted-glass-themes@refs/heads/main/themes/frosted-glass-dark-background.jpg')"
+  background-image: "center / cover no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@main/themes/frosted-coffee-dark-background.jpg')"
   lovelace-background: 'var(--background-image)'
   primary-background-color: 'rgba(30, 30, 30, 1)'                                      # 1.2 change - improved background color for a darker feel 
   secondary-background-color: 'rgba(30, 33, 54, 0.6)'
