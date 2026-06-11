@@ -1,5 +1,5 @@
 # Frosted Coffee Light Lite
-# ver. 1.3 - (2025-11-24)  
+# ver. 1.4 - (2026-06-11)  
 
 Frosted Coffee Lite:
   modes:
@@ -409,7 +409,7 @@ Frosted Coffee Lite:
       success-color: 'rgb(124, 163, 96)'
       warning-color: 'rgb(229, 169, 80)'
       error-color: 'rgb(193, 81, 64)'
-      background-image: "center / 100% 100% no-repeat fixed linear-gradient(rgba(250, 240, 226, 0.8), rgba(250, 240, 226, 0.8)), center / 100% 100% no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@main/themes/frosted-coffee-light-background.jpg')"
+      background-image: "center / 100% 100% no-repeat fixed linear-gradient(rgba(250, 240, 226, 0.8), rgba(250, 240, 226, 0.8)), center / 100% 100% no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@v1.4.0/themes/frosted-coffee-light-background.jpg')"
       lovelace-background: var(--background-image)
       primary-background-color: 'rgba(250, 240, 226, 1)'
       secondary-background-color: 'rgba(244, 236, 224, 0.5)'
@@ -482,27 +482,27 @@ Frosted Coffee Lite:
       # =========================
       # HEADER (Top Bar)
       # =========================
-      app-header-background-color: 'rgba(30, 30, 30, 0.01)'
-      app-header-text-color: 'rgba(240, 243, 255, 0.95)'
-      app-header-edit-background-color: 'rgba(30, 33, 54, 0.8)'
-      app-header-edit-text-color: 'rgba(234, 235, 238, 0.98)'
+      app-header-background-color: 'rgba(32, 24, 18, 0.01)'
+      app-header-text-color: 'rgba(248, 240, 230, 0.95)'
+      app-header-edit-background-color: 'rgba(38, 26, 18, 0.8)'
+      app-header-edit-text-color: 'rgba(240, 228, 214, 0.98)'
       app-theme-color: 'rgb(0, 0, 0)'                                                      # 1.2 Glass – header theme color hint for browsers
 
       # =========================
       # SIDEBAR / DRAWER
       # =========================
-      sidebar-background-color: 'rgba(30, 30, 30, 0.8)'
-      sidebar-icon-color: 'rgba(234, 235, 238, 0.6)'
-      sidebar-text-color: 'rgba(234, 235, 238, 0.8)'
-      sidebar-selected-icon-color: 'rgba(234, 235, 238, 0.95)'
-      sidebar-selected-text-color: 'rgba(234, 235, 238, 0.98)'
+      sidebar-background-color: 'rgba(32, 24, 18, 0.8)'
+      sidebar-icon-color: 'rgba(240, 228, 214, 0.6)'
+      sidebar-text-color: 'rgba(240, 228, 214, 0.8)'
+      sidebar-selected-icon-color: 'rgba(240, 228, 214, 0.95)'
+      sidebar-selected-text-color: 'rgba(240, 228, 214, 0.98)'
 
       # =========================
       # DIALOGS
       # =========================
-      ha-dialog-surface-background: 'rgba(30, 30, 30, 0.9)'
+      ha-dialog-surface-background: 'rgba(32, 24, 18, 0.9)'
       dialog-box-shadow: '0 12px 20px rgba(0, 0, 0, 0.25)'
-      paper-dialog-background-color: 'rgba(30, 30, 30, 0.9)'
+      paper-dialog-background-color: 'rgba(32, 24, 18, 0.9)'
       mdc-dialog-scrim-color: 'rgba(0, 0, 0, 0.9)'
 
       # =========================
@@ -519,7 +519,7 @@ Frosted Coffee Lite:
           content: '';
           position: absolute;
           inset: 0;
-          background: var(--ha-card-glass-tint, rgba(28, 29, 33, 0.18));                    /* 1.2 Glass – subtle dark tint */
+          background: var(--ha-card-glass-tint, rgba(30, 22, 16, 0.18));                    /* 1.2 Glass – subtle dark tint */
           z-index: -1;
           pointer-events: none;
           border-radius: inherit;
@@ -549,7 +549,7 @@ Frosted Coffee Lite:
           background: none !important;
         }
         .mdc-data-table__header-cell {
-          background: rgba(30, 33, 54, 0.18) !important;
+          background: rgba(38, 26, 18, 0.18) !important;
           box-shadow: var(--ha-card-glass-inset-shadow) !important;                         /* 1.2 Glass – consistent bevel */
         }
 
@@ -600,13 +600,13 @@ Frosted Coffee Lite:
       # =========================
       card-mod-root: |
         :host {
-          --ha-card-background: rgba(30, 30, 30, 0.1);
+          --ha-card-background: rgba(32, 24, 18, 0.1);
           --ha-card-box-shadow: 0 12px 20px rgba(0, 0, 0, 0.28);
           --ha-card-border-width: 0.5px;
-          --ha-card-border-color: rgba(234, 235, 238, 0.1);
+          --ha-card-border-color: rgba(240, 228, 214, 0.1);
 
           /* Glass system tokens (new, dark-tuned) */
-          --ha-card-glass-tint: rgba(28, 29, 33, 0.18);                                      # 1.2 Glass – global tint layer
+          --ha-card-glass-tint: rgba(30, 22, 16, 0.18);                                      # 1.2 Glass – global tint layer
           --ha-card-glass-inset-shadow:                                                      # 1.2 Glass – inner bevel/glow (Liquid Glass inspired)
             3px 3px 0.5px -3.5px rgba(255, 255, 255, 0.15) inset,
             -2px -2px 0.5px -2px rgba(255, 255, 255, 0.1) inset,
@@ -614,9 +614,9 @@ Frosted Coffee Lite:
             0 0 2px 0 rgba(0, 0, 0, 0.18);
 
           /* Tokens - match structure to Light theme for consistency */
-          --token-rgb-primary: 106, 116, 211;
+          --token-rgb-primary: 209, 138, 92;
           --token-rgb-black: 0, 0, 0;
-          --token-rgb-white: 234, 235, 238;
+          --token-rgb-white: 240, 228, 214;
           --token-rgb-purple: 129, 45, 250;
           --token-rgb-pink: 204, 0, 136;
           --token-rgb-red: 204, 0, 51;
@@ -624,8 +624,8 @@ Frosted Coffee Lite:
           --token-rgb-indigo: 48, 63, 159;
           --token-rgb-blue: 33, 150, 243;
           --token-rgb-light-blue: 3, 169, 244;
-          --token-rgb-cyan: 106, 116, 211;
-          --token-rgb-teal: 106, 116, 211;
+          --token-rgb-cyan: 209, 138, 92;
+          --token-rgb-teal: 209, 138, 92;
           --token-rgb-green: 56, 142, 60;
           --token-rgb-light-green: 139, 195, 74;
           --token-rgb-lime: 205, 220, 57;
@@ -634,51 +634,51 @@ Frosted Coffee Lite:
           --token-rgb-orange: 255, 158, 0;
           --token-rgb-deep-orange: 255, 87, 34;
           --token-rgb-brown: 121, 85, 72;
-          --token-rgb-grey: 103, 104, 119;
+          --token-rgb-grey: 140, 120, 105;
           --token-rgb-blue-grey: 96, 125, 139;
           --token-rgb-disabled: 189, 189, 189;
-          --token-rgb-state-inactive: 176, 190, 197;
+          --token-rgb-state-inactive: 190, 172, 156;
 
           --token-color-primary: rgb(var(--token-rgb-primary));
-          --token-color-primary-light: rgb(167 182 199);
+          --token-color-primary-light: rgb(214 178 148);
           --token-color-accent: rgb(var(--token-rgb-teal));
-          --token-color-disabled: rgb(173 176 184);
-          --token-color-feedback-info: rgb(106, 116, 211);
-          --token-color-feedback-warning: rgb(255, 219, 117);
-          --token-color-feedback-error: rgb(234, 114, 135);
-          --token-color-feedback-success: rgb(118, 214, 152);
-          --token-color-icon-primary: rgba(234, 235, 238, 0.95);
-          --token-color-icon-secondary: rgba(234, 235, 238, 0.75);
-          --token-color-icon-sidebar: rgba(234, 235, 238, 0.6);
+          --token-color-disabled: rgb(170 152 136);
+          --token-color-feedback-info: rgb(209, 138, 92);
+          --token-color-feedback-warning: rgb(235, 185, 110);
+          --token-color-feedback-error: rgb(224, 122, 95);
+          --token-color-feedback-success: rgb(156, 196, 122);
+          --token-color-icon-primary: rgba(240, 228, 214, 0.95);
+          --token-color-icon-secondary: rgba(240, 228, 214, 0.75);
+          --token-color-icon-sidebar: rgba(240, 228, 214, 0.6);
           --token-color-icon-sidebar-selected: var(--token-color-icon-primary);
-          --token-color-text-primary: rgba(234, 235, 238, 0.98);
-          --token-color-text-secondary: rgba(234, 235, 238, 0.8);
-          --token-color-text-disabled: rgba(234, 235, 238, 0.45);
+          --token-color-text-primary: rgba(240, 228, 214, 0.98);
+          --token-color-text-secondary: rgba(240, 228, 214, 0.8);
+          --token-color-text-disabled: rgba(240, 228, 214, 0.45);
           --token-color-text-sidebar-selected: var(--token-color-text-primary);
           --token-color-text-sidebar: var(--token-color-text-secondary);
-          --token-color-text-label-badge: rgba(234, 235, 238, 0.85);
+          --token-color-text-label-badge: rgba(240, 228, 214, 0.85);
           --token-color-text-chip: rgb(var(--token-rgb-white));
-          --token-color-background-base: rgba(25, 28, 45, 0.8);
-          --token-color-background-secondary: rgba(30, 33, 54, 0.7);
+          --token-color-background-base: rgba(30, 20, 14, 0.8);
+          --token-color-background-secondary: rgba(38, 26, 18, 0.7);
           --token-color-background-sidebar: var(--token-color-background-base);
-          --token-color-background-input-base: rgba(30, 33, 54, 0.7);
-          --token-color-background-input-disabled: rgba(30, 33, 54, 0.5);
-          --token-color-background-label-badge: rgb(60, 60, 78);
-          --token-color-background-card: rgba(28, 29, 33, 0.85);
+          --token-color-background-input-base: rgba(38, 26, 18, 0.7);
+          --token-color-background-input-disabled: rgba(38, 26, 18, 0.5);
+          --token-color-background-label-badge: rgb(66, 50, 38);
+          --token-color-background-card: rgba(30, 22, 16, 0.85);
           --token-color-background-skrim: rgba(0, 0, 0, 0.7);
-          --token-color-background-divider: rgba(84, 84, 98, 0.28);
-          --token-color-background-scrollbar-thumb: rgb(68, 68, 88);
+          --token-color-background-divider: rgba(90, 72, 58, 0.28);
+          --token-color-background-scrollbar-thumb: rgb(74, 56, 42);
           --token-color-background-label-badge-red: var(--token-color-feedback-error);
           --token-color-background-label-badge-blue: var(--token-color-feedback-info);
-          --token-color-background-label-badge-green: rgb(78, 183, 128);
+          --token-color-background-label-badge-green: rgb(132, 172, 100);
           --token-color-background-label-badge-yellow: var(--token-color-feedback-warning);
-          --token-color-background-label-badge-grey: rgb(83, 90, 103);
+          --token-color-background-label-badge-grey: rgb(122, 100, 84);
           --token-color-background-popup-scrim: rgba(0, 0, 0, 1);
-          --token-color-border-card: rgba(234, 235, 238, 0.22);
-          --token-color-switch-button-unchecked: rgba(234, 235, 238, 0.3);
-          --token-color-switch-track-unchecked: rgba(234, 235, 238, 0.18);
-          --token-color-codemirror-string: rgb(164, 209, 255);
-          --token-color-codemirror-keyword: rgb(148, 182, 255);
+          --token-color-border-card: rgba(240, 228, 214, 0.22);
+          --token-color-switch-button-unchecked: rgba(240, 228, 214, 0.3);
+          --token-color-switch-track-unchecked: rgba(240, 228, 214, 0.18);
+          --token-color-codemirror-string: rgb(255, 200, 160);
+          --token-color-codemirror-keyword: rgb(240, 180, 140);
           --token-color-codemirror-number: rgb(255, 171, 64);
           --token-shadow-card-medium: 0 12px 20px rgba(0, 0, 0, 0.28);
           --token-size-radius-small: 10px;
@@ -701,7 +701,7 @@ Frosted Coffee Lite:
           --token-size-section-min-width: 320px;
           --token-color-transparent: rgba(0, 0, 0, 0);
           --token-color-black: rgb(0, 0, 0);
-          --token-color-white: rgb(234, 235, 238);
+          --token-color-white: rgb(240, 228, 214);
           --token-opacity-ripple-hover: 0.1;
           --token-font-family-primary: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
           --token-weight-font-title-card: 500;
@@ -730,7 +730,7 @@ Frosted Coffee Lite:
 
         /* SIDEBAR BLUR */
         .mdc-drawer .mdc-drawer__content {
-          background: rgba(25, 28, 45, 0.8) !important;
+          background: rgba(30, 20, 14, 0.8) !important;
           box-shadow: var(--ha-card-glass-inset-shadow) !important;                         # 1.2 Glass – subtle inner edge for consistency
         }
 
@@ -751,15 +751,15 @@ Frosted Coffee Lite:
 
         /* LABEL BADGE */
         ha-label-badge {
-          --label-badge-background-color: rgba(60, 60, 78, 0.28) !important;
-          --label-badge-text-color: rgba(234, 235, 238, 0.9) !important;
+          --label-badge-background-color: rgba(66, 50, 38, 0.28) !important;
+          --label-badge-text-color: rgba(240, 228, 214, 0.9) !important;
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10) !important;
-          border: 0.5px solid rgba(234, 235, 238, 0.22) !important;
+          border: 0.5px solid rgba(240, 228, 214, 0.22) !important;
         }
 
         /* INPUTS */
         input, ha-textfield, ha-select {
-          background: rgba(30, 33, 54, 0.7) !important;
+          background: rgba(38, 26, 18, 0.7) !important;
           border-radius: var(--token-size-radius-small);
           border: none !important;
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.09) !important;
@@ -767,14 +767,14 @@ Frosted Coffee Lite:
 
         /* Custom text divider row size fix */
         custom-text-divider-row .text-divider-content {
-          background: #181929 !important;
+          background: #241710 !important;
           opacity: 1 !important;
           box-shadow: none !important;
           border-radius: 10px !important;
           padding: 0 8px !important;
           --text-divider-font-size: 16px !important;
           --text-divider-line-size: 1px;
-          --text-divider-color: rgba(234, 235, 238, 1) !important;
+          --text-divider-color: rgba(240, 228, 214, 1) !important;
         }
 
       # =========================
@@ -824,121 +824,121 @@ Frosted Coffee Lite:
       # COLORS & MISCELLANEOUS
       # =========================
       # 1.2.1 - change add HA 2025.8 primary color scale aligned to theme
-      ha-color-primary-05: '#0D0E19'
-      ha-color-primary-10: '#131526'
-      ha-color-primary-20: '#20233F'
-      ha-color-primary-30: '#30345F'
-      ha-color-primary-40: '#40467F'
-      ha-color-primary-50: '#6A74D3'   # base theme primary (kept)
-      ha-color-primary-60: '#8F97DE'
-      ha-color-primary-70: '#ADB3E7'
-      ha-color-primary-80: '#D2D5F2'
-      ha-color-primary-90: '#EAECF9'
-      ha-color-primary-95: '#F6F7FC'
+      ha-color-primary-05: '#1A0E07'
+      ha-color-primary-10: '#2E1A0F'
+      ha-color-primary-20: '#452715'
+      ha-color-primary-30: '#5E351D'
+      ha-color-primary-40: '#763F22'
+      ha-color-primary-50: '#8E4A2A'   # base theme primary (kept)
+      ha-color-primary-60: '#AA6845'
+      ha-color-primary-70: '#C28A68'
+      ha-color-primary-80: '#DBB597'
+      ha-color-primary-90: '#EFDAC7'
+      ha-color-primary-95: '#F8EEE3'
 
       # 1.2.1 - change add aliases for compatibility (some threads reference --color-primary-xx)
-      color-primary-05: '#0D0E19'
-      color-primary-10: '#131526'
-      color-primary-20: '#20233F'
-      color-primary-30: '#30345F'
-      color-primary-40: '#40467F'
-      color-primary-50: '#6A74D3'
-      color-primary-60: '#8F97DE'
-      color-primary-70: '#ADB3E7'
-      color-primary-80: '#D2D5F2'
-      color-primary-90: '#EAECF9'
-      color-primary-95: '#F6F7FC'
-      primary-text-color: 'rgba(234, 235, 238, 0.98)'
-      secondary-text-color: 'rgba(234, 235, 238, 0.8)'
-      text-primary-color: 'rgba(234, 235, 238, 0.98)'
-      disabled-text-color: 'rgba(234, 235, 238, 0.45)'
-      text-light-primary-color: 'rgb(234, 235, 238)'
-      paper-item-icon-color: 'rgba(234, 235, 238, 0.95)'
-      state-inactive-color: 'rgba(234, 235, 238, 0.8)'
-      state-icon-color: 'rgba(234, 235, 238, 0.95)'
-      state-on-color: 'rgb(118, 214, 152)'
-      state-off-color: 'rgb(234, 114, 135)'
-      label-badge-text-color: 'rgba(234, 235, 238, 0.85)'
-      label-badge-red: 'rgb(234, 114, 135)'
-      label-badge-blue: 'rgb(106, 116, 211)'
-      label-badge-green: 'rgb(78, 183, 128)'
-      label-badge-yellow: 'rgb(255, 219, 117)'
-      label-badge-grey: 'rgb(83, 90, 103)'
-      ha-chip-text-color: 'rgb(234, 235, 238)'
+      color-primary-05: '#1A0E07'
+      color-primary-10: '#2E1A0F'
+      color-primary-20: '#452715'
+      color-primary-30: '#5E351D'
+      color-primary-40: '#763F22'
+      color-primary-50: '#8E4A2A'
+      color-primary-60: '#AA6845'
+      color-primary-70: '#C28A68'
+      color-primary-80: '#DBB597'
+      color-primary-90: '#EFDAC7'
+      color-primary-95: '#F8EEE3'
+      primary-text-color: 'rgba(240, 228, 214, 0.98)'
+      secondary-text-color: 'rgba(240, 228, 214, 0.8)'
+      text-primary-color: 'rgba(240, 228, 214, 0.98)'
+      disabled-text-color: 'rgba(240, 228, 214, 0.45)'
+      text-light-primary-color: 'rgb(240, 228, 214)'
+      paper-item-icon-color: 'rgba(240, 228, 214, 0.95)'
+      state-inactive-color: 'rgba(240, 228, 214, 0.8)'
+      state-icon-color: 'rgba(240, 228, 214, 0.95)'
+      state-on-color: 'rgb(156, 196, 122)'
+      state-off-color: 'rgb(224, 122, 95)'
+      label-badge-text-color: 'rgba(240, 228, 214, 0.85)'
+      label-badge-red: 'rgb(224, 122, 95)'
+      label-badge-blue: 'rgb(209, 138, 92)'
+      label-badge-green: 'rgb(132, 172, 100)'
+      label-badge-yellow: 'rgb(235, 185, 110)'
+      label-badge-grey: 'rgb(122, 100, 84)'
+      ha-chip-text-color: 'rgb(240, 228, 214)'
 
-      primary-color: 'rgb(106, 116, 211)'
-      dark-primary-color: 'rgb(106, 116, 211)'
-      light-primary-color: 'rgb(167, 182, 199)'
-      accent-color: 'rgb(106, 116, 211)'
-      divider-color: 'rgba(84, 84, 98, 0.28)'
-      scrollbar-thumb-color: 'rgb(68, 68, 88)'
-      disabled-color: 'rgb(173, 176, 184)'
-      info-color: 'rgb(106, 116, 211)'
-      success-color: 'rgb(118, 214, 152)'
-      warning-color: 'rgb(255, 219, 117)'
-      error-color: 'rgb(234, 114, 135)'
-      background-image: "center / cover no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@main/themes/frosted-coffee-dark-background.jpg')"
+      primary-color: 'rgb(209, 138, 92)'
+      dark-primary-color: 'rgb(209, 138, 92)'
+      light-primary-color: 'rgb(214, 178, 148)'
+      accent-color: 'rgb(209, 138, 92)'
+      divider-color: 'rgba(90, 72, 58, 0.28)'
+      scrollbar-thumb-color: 'rgb(74, 56, 42)'
+      disabled-color: 'rgb(170, 152, 136)'
+      info-color: 'rgb(209, 138, 92)'
+      success-color: 'rgb(156, 196, 122)'
+      warning-color: 'rgb(235, 185, 110)'
+      error-color: 'rgb(224, 122, 95)'
+      background-image: "center / 100% 100% no-repeat fixed linear-gradient(rgba(26, 17, 12, 0.8), rgba(26, 17, 12, 0.8)), center / 100% 100% no-repeat fixed url('https://cdn.jsdelivr.net/gh/moimart/homeassistant-frosted-coffee-themes@v1.4.0/themes/frosted-coffee-dark-background.jpg')"
       lovelace-background: 'var(--background-image)'
-      primary-background-color: 'rgba(30, 30, 30, 1)'                                      # 1.2 change - improved background color for a darker feel 
-      secondary-background-color: 'rgba(30, 33, 54, 0.6)'
-      clear-background-color: 'rgba(30, 33, 54, 0.7)'
-      card-background-color: 'rgba(30, 30, 30, 0.85)'
-      ha-card-background: 'rgba(30, 30, 30, 0.9)'
+      primary-background-color: 'rgba(32, 24, 18, 1)'                                      # 1.2 change - improved background color for a darker feel 
+      secondary-background-color: 'rgba(38, 26, 18, 0.6)'
+      clear-background-color: 'rgba(38, 26, 18, 0.7)'
+      card-background-color: 'rgba(32, 24, 18, 0.85)'
+      ha-card-background: 'rgba(32, 24, 18, 0.9)'
       ha-card-border-radius: '18px'
-      ha-card-border-color: 'rgba(234, 235, 238, 0.22)'
+      ha-card-border-color: 'rgba(240, 228, 214, 0.22)'
       ha-card-border-width: '0.5px'
       ha-card-border-style: 'solid'
-      ha-card-border: '0.5px solid rgba(234, 235, 238, 0.1)'
+      ha-card-border: '0.5px solid rgba(240, 228, 214, 0.1)'
       ha-card-box-shadow: '0 12px 20px rgba(0, 0, 0, 0.28)'
       ha-view-sections-column-gap: '17px'
       ha-view-sections-column-min-width: 320px
 
       # Sliders, toggles, switches
-      paper-slider-knob-color: 'rgb(106, 116, 211)'
-      paper-slider-knob-start-color: 'rgb(106, 116, 211)'
-      paper-slider-pin-color: 'rgb(106, 116, 211)'
-      paper-slider-active-color: 'rgb(106, 116, 211)'
-      paper-slider-secondary-color: 'rgb(167, 182, 199)'
-      switch-checked-button-color: 'rgb(106, 116, 211)'
-      switch-checked-track-color: 'rgb(106, 116, 211)'
-      switch-unchecked-button-color: 'rgba(234, 235, 238, 0.3)'
-      switch-unchecked-track-color: 'rgba(234, 235, 238, 0.18)'
-      paper-toggle-button-checked-button-color: 'rgb(106, 116, 211)'
-      paper-toggle-button-checked-bar-color: 'rgb(106, 116, 211)'
-      paper-toggle-button-unchecked-button-color: 'rgba(234, 235, 238, 0.3)'
-      paper-toggle-button-unchecked-bar-color: 'rgba(234, 235, 238, 0.18)'
-      mdc-checkbox-unchecked-color: 'rgba(234, 235, 238, 0.75)'
-      mdc-radio-unchecked-color: 'rgba(234, 235, 238, 0.75)'
+      paper-slider-knob-color: 'rgb(209, 138, 92)'
+      paper-slider-knob-start-color: 'rgb(209, 138, 92)'
+      paper-slider-pin-color: 'rgb(209, 138, 92)'
+      paper-slider-active-color: 'rgb(209, 138, 92)'
+      paper-slider-secondary-color: 'rgb(214, 178, 148)'
+      switch-checked-button-color: 'rgb(209, 138, 92)'
+      switch-checked-track-color: 'rgb(209, 138, 92)'
+      switch-unchecked-button-color: 'rgba(240, 228, 214, 0.3)'
+      switch-unchecked-track-color: 'rgba(240, 228, 214, 0.18)'
+      paper-toggle-button-checked-button-color: 'rgb(209, 138, 92)'
+      paper-toggle-button-checked-bar-color: 'rgb(209, 138, 92)'
+      paper-toggle-button-unchecked-button-color: 'rgba(240, 228, 214, 0.3)'
+      paper-toggle-button-unchecked-bar-color: 'rgba(240, 228, 214, 0.18)'
+      mdc-checkbox-unchecked-color: 'rgba(240, 228, 214, 0.75)'
+      mdc-radio-unchecked-color: 'rgba(240, 228, 214, 0.75)'
       mdc-ripple-hover-opacity: '0.1'
 
       # Inputs
-      input-background-color: 'rgba(50, 50, 50, 0.1)'
-      input-background-token-color-disabled: 'rgba(50, 50, 50, 0.1)'
-      input-fill-color: 'rgba(50,50, 50, 0.1)'
-      input-ink-color: 'rgba(234, 235, 238, 0.98)'
-      input-label-ink-color: 'rgba(234, 235, 238, 0.98)'
-      input-disabled-fill-color: 'rgba(30, 33, 54, 0.5)'
-      input-disabled-ink-color: 'rgba(234, 235, 238, 0.45)'
-      input-disabled-label-ink-color: 'rgba(234, 235, 238, 0.45)'
+      input-background-color: 'rgba(52, 42, 34, 0.1)'
+      input-background-token-color-disabled: 'rgba(52, 42, 34, 0.1)'
+      input-fill-color: 'rgba(52, 42, 34, 0.1)'
+      input-ink-color: 'rgba(240, 228, 214, 0.98)'
+      input-label-ink-color: 'rgba(240, 228, 214, 0.98)'
+      input-disabled-fill-color: 'rgba(38, 26, 18, 0.5)'
+      input-disabled-ink-color: 'rgba(240, 228, 214, 0.45)'
+      input-disabled-label-ink-color: 'rgba(240, 228, 214, 0.45)'
       input-idle-line-color: 'transparent'
-      input-dropdown-icon-color: 'rgba(234, 235, 238, 0.8)'
-      input-hover-line-color: 'rgb(106, 116, 211)'
+      input-dropdown-icon-color: 'rgba(240, 228, 214, 0.8)'
+      input-hover-line-color: 'rgb(209, 138, 92)'
       mdc-select-idle-line-color: 'transparent'
       mdc-text-field-idle-line-color: 'transparent'
 
       # Code Editor & Misc
-      code-editor-background-color: 'rgba(25, 28, 45, 1)'
-      codemirror-meta: 'rgba(234, 235, 238, 0.98)'
-      codemirror-property: 'rgb(106, 116, 211)'
-      codemirror-atom: 'rgb(106, 116, 211)'
-      codemirror-string: 'rgb(164, 209, 255)'
-      codemirror-keyword: 'rgb(148, 182, 255)'
+      code-editor-background-color: 'rgba(30, 20, 14, 1)'
+      codemirror-meta: 'rgba(240, 228, 214, 0.98)'
+      codemirror-property: 'rgb(209, 138, 92)'
+      codemirror-atom: 'rgb(209, 138, 92)'
+      codemirror-string: 'rgb(255, 200, 160)'
+      codemirror-keyword: 'rgb(240, 180, 140)'
       codemirror-number: 'rgb(255, 171, 64)'
       mcg-title-font-weight: '400'
       mush-title-font-weight: '500'
       mush-title-font-size: 'var(--token-size-font-2xl)'
-      light-grey-color: 'rgb(103, 104, 119)'
-      mush-rgb-grey: '103, 104, 119'
+      light-grey-color: 'rgb(140, 120, 105)'
+      mush-rgb-grey: '140, 120, 105'
 
       # Misc sizes
       paper-slider-height: '5px'
